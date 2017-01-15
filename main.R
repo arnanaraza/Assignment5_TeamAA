@@ -22,7 +22,7 @@ source("R/ndviCalc.R")
 download.file("https://www.dropbox.com/s/akb9oyye3ee92h3/LT51980241990098-SC20150107121947.tar.gz?dl=1", "data/landsat5.tar.gz")
 download.file("https://www.dropbox.com/s/i1ylsft80ox6a32/LC81970242014109-SC20141230042441.tar.gz?dl=1", "data/landsat8.tar.gz")
   
-  #for Windows
+#for Windows
 #download.file("https://www.dropbox.com/s/akb9oyye3ee92h3/LT51980241990098-SC20150107121947.tar.gz?dl=1", "data/landsat5.tar.gz", method= "auto",mode="wb")
 #download.file("https://www.dropbox.com/s/i1ylsft80ox6a32/LC81970242014109-SC20141230042441.tar.gz?dl=1", "data/landsat8.tar.gz", method= "auto",mode="wb")
 
